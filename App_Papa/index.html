@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/scripts.js"></script>
+    <title>Ganancias</title>
+</head>
+
+<body>
+    <form class="formulario" id="form" onsubmit="enviarFormulario(event)">
+
+        <label for="Auto" class="lbl">Selecciona un modelo de auto</label>
+        <select class="desplegable" id="dspl">
+            <option value="0">Seleccione una opcion</option>
+            <option value="1" id="1">Spark</option>
+            <option value="2" id="2">Ejemplo 1</option>
+            <option value="3" id="3">Ejemplo 2</option>
+        </select><br>
+
+        <label for="distancia" class="lbl" id="dst"> Distancia (km) </label>
+        <input type="number" id="distancia" placeholder="Distancia (km)" class="txtbox"><br>
+
+        <label for="Precio" class="lbl" id="prc"> Precio carrera </label>
+        <input type="number" id="precio" placeholder="Precio carrera" class="txtbox"><br>
+
+        <input type="text" readonly="readonly" id="resultado" placeholder="resultado" class="txtbox"><br>
+
+        <button type="menu" class="boton" id="Calcular" onclick="ganancia()">Calcular</button>
+
+        </div>
+    </form>
+
+</body>
+
+</html>

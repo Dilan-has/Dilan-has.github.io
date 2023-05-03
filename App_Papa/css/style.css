@@ -1,0 +1,47 @@
+body {
+    background-color: #454545;
+}
+
+.formulario {
+    position: relative;
+    top: 200px;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6000;
+    border-radius: 20px;
+    box-shadow: 6px 20px 10px black;
+    padding: 15px;
+    
+}
+
+.txtbox {
+    background-color: #FFA559;
+    padding: 5px;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+.txtbox::placeholder {
+    color: black;
+}
+
+.desplegable {
+    background-color: #FFA559;
+    padding: 5px;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+.lbl {
+    padding: 7px;
+}
+
+.boton{
+
+    padding: 7px;
+
+}
